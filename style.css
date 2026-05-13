@@ -1,0 +1,139 @@
+/* Pengaturan Dasar */
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    background-color: #FDFBF7; /* Cream */
+    color: #001F3F; /* Navy */
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigasi */
+.custom-navbar {
+    background-color: #001F3F;
+    padding: 15px 0;
+    border-bottom: 2px solid #F5E6CA;
+}
+
+.brand-title {
+    color: #FDFBF7 !important;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    color: #FDFBF7 !important;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+.nav-link:hover {
+    color: #D4AF37 !important; 
+}
+
+/* --- PENGATURAN FULL SCREEN SECTION --- */
+.fullscreen-section {
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding-top: 70px; 
+    padding-bottom: 70px; 
+}
+
+/* Section 1: Hero (Gradasi Navy ke Cream) */
+.hero-section {
+    background: linear-gradient(180deg, #001F3F 0%, #083358 60%, #FDFBF7 100%);
+    color: #FDFBF7;
+}
+
+.btn-outline-light:hover {
+    background-color: #F5E6CA;
+    color: #001F3F;
+    border-color: #F5E6CA;
+}
+
+/* Section 2: Katalog (Background Cream) */
+.collection-section {
+    background-color: #FDFBF7;
+}
+
+.section-title {
+    color: #001F3F;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Desain Kartu & Placeholder Sampul */
+.custom-card {
+    border: none;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 31, 63, 0.08);
+    transition: all 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 31, 63, 0.15);
+}
+
+.book-cover-placeholder {
+    height: 250px;
+    background-color: #E8DFD0; /* Cream lebih gelap */
+    color: #001F3F;
+    font-weight: bold;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* Tombol Custom Navy */
+.btn-custom {
+    background: linear-gradient(45deg, #001F3F, #083358);
+    color: #FDFBF7;
+    border: none;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: all 0.3s;
+}
+
+.btn-custom:hover {
+    background: #001F3F;
+    color: #D4AF37;
+    transform: scale(1.02);
+}
+
+/* Styling Modal (Pop-Up Dublin Core) */
+.custom-modal .modal-header {
+    background-color: #001F3F;
+    color: #FDFBF7;
+    border-bottom: 2px solid #F5E6CA;
+}
+
+.custom-modal .modal-body {
+    background-color: #FDFBF7;
+}
+
+.metadata-table th {
+    background-color: #083358;
+    color: #FDFBF7;
+    font-weight: 600;
+}
+
+.metadata-table td {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Footer Stay */
+.custom-footer {
+    background-color: #001F3F;
+    color: #FDFBF7;
+    border-top: 3px solid #F5E6CA;
+    box-shadow: 0 -5px 15px rgba(0,0,0,0.15);
+}
